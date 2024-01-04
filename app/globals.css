@@ -25,3 +25,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+h1 {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  font-size: 3rem;
+  font-weight: 750;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  font-size: 0.825rem;
+  font-weight: 500;
+  color: rgb(106, 106, 106);
+}
