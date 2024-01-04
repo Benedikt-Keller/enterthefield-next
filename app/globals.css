@@ -1,18 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 100, 100, 100;
+  --middleground-rgb: 150, 150, 150;
+  --background-start-rgb: 214, 214, 214;
+  --background-end-rgb: 214, 214, 214;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 10, 10, 10;
+    --background-end-rgb: 10, 10, 10;
   }
 }
 
@@ -37,5 +34,6 @@ h5 {
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
   font-size: 0.825rem;
   font-weight: 500;
-  color: rgb(106, 106, 106);
+  color: rgb(var(--middleground-rgb));
+  margin: 0px;
 }

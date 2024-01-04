@@ -1,26 +1,70 @@
-import blog from './blog.module.css'
-import Image from 'next/image';
+'use client'
+import './blog.css'
+import Link from 'next/link';
+import { ReactNode } from 'react';
+import React from 'react';
 
 interface CellProps {
+    type: string;
     imgpath: string;
+    posttitle?: string;
     title: string;
     date: string;
     desc: string;
-  }
+}
 
-export default function Cell({imgpath, title, desc, date}: CellProps) {
-    return (
-        <div className={blog.cell}>
-            <div className={blog.imgcontainer}>
-                <img src={imgpath} alt={title} className={blog.img}/>
+export default function Cell({ imgpath, title, desc, date, type, posttitle }: CellProps) {
+    const [isVisible, setIsVisible] = React.useState(false);
+
+    const toggleVisibility = () => {
+        setIsVisible(!isVisible);
+      };
+
+    const FullSizeImage = (): ReactNode => {
+        return (
+            <div className='fullsizecontainer'>
+                <div className='fullimgcontainer'>
+                    <img src={imgpath} alt={title} className='fullimg' />
+                    <button className='fullimgbutton' onClick={toggleVisibility}>Close</button>
+                </div>
             </div>
-            <h5 className={blog.title}>{title}</h5>
-            <div className={blog.subtitle}>
-                <h5>{desc} </h5>
-                <h5>{date} </h5>
+        );
+    };
+
+    if (type == 'image') {
+        return (
+            <div>
+                {isVisible && <FullSizeImage/>}
+                <div className='cell' onClick={toggleVisibility}>
+                    <div className='imgcontainer'>
+                        <img src={imgpath} alt={title} className='img' />
+                    </div>
+                    <h5 className='title'>{title}</h5>
+                    <div className='subtitle'>
+                        <h5>{desc} </h5>
+                        <h5>{date} </h5>
+                    </div>
+                </div>
             </div>
-           
-        </div>
-        
-    )
+
+
+        )
+    }
+    if (type == 'post') {
+        return (
+            <Link href={`/blog/${posttitle}`}>
+                <div className='cell'>
+                    <div className='imgcontainer'>
+                        <img src={imgpath} alt={title} className='img' />
+                    </div>
+                    <h5 className='title'>{title}</h5>
+                    <div className='subtitle'>
+                        <h5>{desc} </h5>
+                        <h5>{date} </h5>
+                    </div>
+
+                </div>
+            </Link>
+        )
+    }
 }
