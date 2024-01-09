@@ -39,6 +39,12 @@
     padding: 0;
 }
 
+.block-seperator {
+    width: 100%;
+    height: 1px;
+    background: rgb(var(--middleground-light-rgb));
+}
+
 @media screen and (max-width: 768px) {
     .page-content {
         width: 100%;

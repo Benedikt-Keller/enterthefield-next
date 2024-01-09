@@ -1,6 +1,7 @@
 :root {
   --foreground-rgb: 100, 100, 100;
   --middleground-rgb: 150, 150, 150;
+  --middleground-light-rgb: 50, 50, 50;
   --background-start-rgb: 214, 214, 214;
   --background-end-rgb: 214, 214, 214;
 }
