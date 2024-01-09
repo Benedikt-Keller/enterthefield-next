@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(20px);
+    padding: 2rem;
+    width: 100%;
+}
+
+.directory {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 6px;
+}
+
+.blog-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 2rem;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .page-content {
+        width: 100%;
+    }
+
+    h2 {
+        padding-top: 2rem;
+        font-size: 3rem;
+    }
+    
+}

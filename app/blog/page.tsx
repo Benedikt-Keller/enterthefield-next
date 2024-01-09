@@ -1,5 +1,6 @@
 import './blog.css'
-import Cell from './cell'
+import Cell from './(components)/cell'
+import { IoIosArrowRoundBack } from "react-icons/io";
 
 
 export default function Page() {
@@ -11,19 +12,16 @@ export default function Page() {
             date: '03.01.2024',
             type: 'post',
             posttitle: 'welcome'
-        },
-        {
-            imgpath: "/dot.jpg",
-            title: "dot.jpg",
-            desc: "This is the first field progra2m",
-            date: '03.01.2024',
-            type: 'image'
         }
     ]
 
     return (
         <div className='page'>
-            <h1>Field Program</h1>
+            <div className='blog-header'>
+                <h3>Field Program</h3>
+                <h4>Blog</h4>
+            </div>
+            
                 <div className='grid'>
                     <>
                         {posts.map((post) => (

@@ -1,5 +1,5 @@
 'use client'
-import './blog.css'
+import '../blog.css'
 import Link from 'next/link';
 import { ReactNode } from 'react';
 import React from 'react';
@@ -33,26 +33,23 @@ export default function Cell({ imgpath, title, desc, date, type, posttitle }: Ce
 
     if (type == 'image') {
         return (
-            <div>
-                {isVisible && <FullSizeImage/>}
+            <>
+            {isVisible && <FullSizeImage/>}
                 <div className='cell' onClick={toggleVisibility}>
                     <div className='imgcontainer'>
                         <img src={imgpath} alt={title} className='img' />
                     </div>
                     <h5 className='title'>{title}</h5>
                     <div className='subtitle'>
-                        <h5>{desc} </h5>
-                        <h5>{date} </h5>
+                        <h5>{desc} - {date}</h5>
                     </div>
                 </div>
-            </div>
-
-
+            </>
         )
     }
     if (type == 'post') {
         return (
-            <Link href={`/blog/${posttitle}`}>
+            <Link href={`/blog/${posttitle}`} style={{ textDecoration: 'none' }}>
                 <div className='cell'>
                     <div className='imgcontainer'>
                         <img src={imgpath} alt={title} className='img' />
