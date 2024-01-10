@@ -6,12 +6,12 @@ import { IoIosArrowRoundBack } from "react-icons/io";
 export default function Page() {
     const posts = [
         {
-            imgpath: "/IMG_2306.PNG",
-            title: "IMG_2306.PNG",
-            desc: "This is the first field progra2m",
-            date: '03.01.2024',
+            imgpath: "/untitled/untitledgif.gif",
+            title: "untitled series",
+            desc: "untitled series",
+            date: '??-08-2022',
             type: 'post',
-            posttitle: 'welcome'
+            posttitle: 'untitled'
         }
     ]
 
