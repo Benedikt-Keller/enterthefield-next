@@ -33,7 +33,7 @@ export default function Page() {
 
                 <div className="block-seperator"></div>
                 
-                <p> 009, 012, ??? </p>
+                <p> 009, 012 & ??? </p>
 
                 <div className="grid">
                     <Cell type={"image"} imgpath={"/untitled/41ECA181-5359-4A3F-8EBF-D7BCE83D63AF.jpeg"} title={"009"} date={"08-2022"} desc={"?????"} ></Cell>

@@ -5,7 +5,7 @@ import './landing.css'
 export default function Home() {
   return (
     <div style={{backgroundColor: 'white', overflow: 'hidden'}}>
-        <h1 style={{zIndex: '200', position: 'fixed', color: 'black', display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '0.5rem'}}>
+        <h1 style={{zIndex: '200', position: 'fixed', display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '0.5rem'}}>
           enter
         </h1>
         <div style={{zIndex: '2000', display: 'flex', justifyContent: 'center', alignItems: 'center',flexDirection: 'column', height: '100vh', overflow: 'hidden'}}>
@@ -19,7 +19,7 @@ export default function Home() {
           </Link>
           </div>
         
-        <h1 style={{zIndex: '200', position: 'fixed', color: 'black', display: 'flex', width: '100%', justifyContent: 'center', bottom: '0', paddingBottom: '0.5rem'}}>
+        <h1 style={{zIndex: '200', position: 'fixed', display: 'flex', width: '100%', justifyContent: 'center', bottom: '0', paddingBottom: '0.5rem'}}>
           the field
         </h1>
       </div>

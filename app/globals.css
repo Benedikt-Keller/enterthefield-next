@@ -1,9 +1,8 @@
 :root {
-  --foreground-rgb: 100, 100, 100;
+  --foreground-rgb: 0, 0, 0;
   --middleground-rgb: 150, 150, 150;
-  --middleground-light-rgb: 200, 200, 200;
-  --background-start-rgb: 214, 214, 214;
-  --background-end-rgb: 214, 214, 214;
+  --middleground-light-rgb: 220, 220, 220;
+  --background-start-rgb: 256, 256, 256;
 }
 
 ::-webkit-scrollbar {
@@ -20,6 +19,7 @@
     --middleground-light-rgb: 50, 50, 50;
   }
 }
+
 
 
 
@@ -45,16 +45,16 @@ h2 {
 
 h3 {
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-  font-size: 1.25rem;
-  font-weight: 750;
+  font-size: 1rem;
+  font-weight: 500;
   margin: 0px;
   color: rgb(var(--foreground-rgb));
 }
 
 h4 {
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-  font-size: 1.25rem;
-  font-weight: 750;
+  font-size: 1rem;
+  font-weight: 500;
   margin: 0px;
   color: rgb(var(--middleground-rgb));
 }

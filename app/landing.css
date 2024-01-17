@@ -37,7 +37,7 @@
     width: fit-content;
     padding: 2rem;
     background-color: rgb(var(--middleground-rgb), 0.2);
-    border-radius: 0.25rem;
+    border-radius: 0.125rem;
     border: 1px solid;
     border-color: rgb(var(--middleground-rgb));
     backdrop-filter: blur(0.5rem);

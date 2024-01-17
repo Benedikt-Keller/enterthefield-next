@@ -11,26 +11,53 @@ export default function Page() {
                 <h3>FFIELD</h3>
                 <h4>Music</h4>
             </div>
+            <div className='link-grid-container'>
             <div className='link-grid'>
-                    <Link href={'https://open.spotify.com/intl-de/artist/5jIdvJoSpBBsXUWwfoZgGm?si=Pq3JdWeJTe6MVaRYMy3OyA'} style={{textDecoration: 'none'}} className='link-1'> 
-                            <img src='/links/Spotify_logo_without_text_gray.svg' className='logo-base'></img>
+                    <Link href={'https://open.spotify.com/intl-de/artist/5jIdvJoSpBBsXUWwfoZgGm?si=Pq3JdWeJTe6MVaRYMy3OyA'} style={{textDecoration: 'none'}} className='link'> 
+                        <div className='link-content'>
+                            <div className='link-container'>
+                                <img src='/music/sp.svg'></img>
+                                <h4 className='link-text'> Spotify</h4>
+                            </div>
+                            <img src='/music/link.svg' className='link-logo'></img>
+                        </div>
                     </Link>
 
-                    <Link href={'https://soundcloud.com/user-983034856?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'} style={{textDecoration: 'none'}} className='link-2'>  
-                        <img src='/links/soundcloud-svgrepo-com.svg' className='logo'></img>
-                        <img src='/links/soundcloud-svgrepo-com.svg' className='logo-bw'></img>
+                    <Link href={'https://soundcloud.com/user-983034856?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'} style={{textDecoration: 'none'}} className='link'>  
+                        <div className='link-content'>
+                            <div className='link-container'>
+                                <img src='/music/yt.svg'></img>
+                                <h4 className='link-text'> YouTube</h4>
+                            </div>
+                            <img src='/music/link.svg' className='link-logo'></img>
+                        </div>
                     </Link>
 
-                    <Link href={'https://soundcloud.com/user-983034856?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'} style={{textDecoration: 'none'}} className='link-3'>  
-                        <img src='/links/youtube-svgrepo-com.svg' className='logo-base'></img>
+                    <Link href={'https://soundcloud.com/user-983034856?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'} style={{textDecoration: 'none'}} className='link'>  
+                        <div className='link-content'>
+                            <div className='link-container'>
+                                <img src='/music/sc.svg'></img>
+                                <h4 className='link-text'> Soundcloud</h4>
+                            </div>
+                            <img src='/music/link.svg' className='link-logo'></img>
+                        </div>
                     </Link>
 
-                    <Link href={'https://soundcloud.com/user-983034856?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'} style={{textDecoration: 'none'}} className='link-4'>  
-                        <img src='/links/Apple_Music_logo.svg' className='logo'></img>
-                        <img src='/links/Apple_Music_logo.svg' className='logo-bw'></img>
+                    <Link href={'https://soundcloud.com/user-983034856?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'} style={{textDecoration: 'none'}} className='link'>  
+                        <div className='link-content'>
+                            <div className='link-container'>
+                                <img src='/music/ap.svg'></img>
+                                <h4 className='link-text'> Apple Music</h4>
+                            </div>
+                            <img src='/music/link.svg' className='link-logo'></img>
+                        </div>
                     </Link>
                     
             </div>
+            </div>
+            
+
+            <img src='/music/pb.png' className='background-img'></img>
             
         </div>
     )
