@@ -23,7 +23,7 @@ export default function Page() {
                         </div>
                     </Link>
 
-                    <Link href={'https://soundcloud.com/user-983034856?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'} style={{textDecoration: 'none'}} className='link'>  
+                    <Link href={'https://youtube.com/@fieldprogram?si=GMzYNCPBNgyp0DfZ'} style={{textDecoration: 'none'}} className='link'>  
                         <div className='link-content'>
                             <div className='link-container'>
                                 <img src='/music/yt.svg'></img>
@@ -43,7 +43,7 @@ export default function Page() {
                         </div>
                     </Link>
 
-                    <Link href={'https://soundcloud.com/user-983034856?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'} style={{textDecoration: 'none'}} className='link'>  
+                    <Link href={'https://music.apple.com/us/artist/ffield/1468602171'} style={{textDecoration: 'none'}} className='link'>  
                         <div className='link-content'>
                             <div className='link-container'>
                                 <img src='/music/ap.svg'></img>

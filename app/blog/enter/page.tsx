@@ -11,7 +11,7 @@ export default function Page() {
             <Header title={title} />
             <div className="page-content">
                 <h2>{title}</h2>
-                <Cell type={"image"} imgpath={"/untitled/unknown.png"} title={"enter the field"} date={"22-01-2024"} desc={"?????"} ></Cell>
+                <Cell type={"image"} imgpath={"/enter/enter.png"} title={"enter the field"} date={"22-01-2024"} desc={"?????"} ></Cell>
             </div>
         </div>
     )

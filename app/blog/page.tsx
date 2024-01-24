@@ -7,20 +7,19 @@ export default function Page() {
     const posts = [
         {
             imgpath: "/untitled/untitledgif.gif",
-            title: "enterthefield",
-            desc: "welcome to the field",
-            date: '22-01-2022',
-            type: 'post',
-            posttitle: 'enter'
-        },
-
-        {
-            imgpath: "/untitled/untitledgif.gif",
             title: "untitled series",
             desc: "untitled series",
-            date: '??-08-2022',
+            date: '22-01-2024',
             type: 'post',
             posttitle: 'untitled'
+        },
+        {
+            imgpath: "/enter/enter.png",
+            title: "enterthefield",
+            desc: "welcome to the field",
+            date: '22-01-2024',
+            type: 'post',
+            posttitle: 'enter'
         }
     ]
 

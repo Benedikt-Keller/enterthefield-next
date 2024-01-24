@@ -1,8 +1,9 @@
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --middleground-rgb: 150, 150, 150;
-  --middleground-light-rgb: 220, 220, 220;
-  --background-start-rgb: 256, 256, 256;
+  --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 10, 10, 10;
+    --background-end-rgb: 10, 10, 10;
+    --middleground-rgb: 150, 150, 150;
+    --middleground-light-rgb: 50, 50, 50;
 }
 
 ::-webkit-scrollbar {
