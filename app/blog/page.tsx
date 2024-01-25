@@ -34,6 +34,7 @@ export default function Page() {
                     <>
                         {posts.map((post) => (
                             <Cell imgpath={post.imgpath} 
+                            key={post.title}
                             title={post.title} 
                             desc={post.desc} 
                             date={post.date} 
