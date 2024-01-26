@@ -45,6 +45,13 @@
     background: rgb(var(--middleground-light-rgb));
 }
 
+.back-button {
+    background: rgb(var(--middleground-light-rgb));
+    border-radius: 0.125rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
     .page-content {
         width: 100%;

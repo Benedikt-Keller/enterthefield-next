@@ -1,6 +1,7 @@
 import './blog.css'
 import Cell from './(components)/cell'
 import { IoIosArrowRoundBack } from "react-icons/io";
+import Back from './(components)/back';
 
 
 export default function Page() {
@@ -17,6 +18,7 @@ export default function Page() {
 
     return (
         <div className='page'>
+            <Back/>
             <div className='blog-header'>
                 <h3>Field Program</h3>
                 <h4>Blog</h4>
