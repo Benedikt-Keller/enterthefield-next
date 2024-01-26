@@ -20,7 +20,7 @@ export default function Home() {
           </div>
         
         <h1 style={{zIndex: '200', position: 'fixed', display: 'flex', width: '100%', justifyContent: 'center', bottom: '0', paddingBottom: '0.5rem', color: 'black'}}>
-          the field
+          
         </h1>
         <p style={{zIndex: '200', position: 'fixed', display: 'flex', width: '100%', justifyContent: 'center', bottom: '70px', paddingBottom: '0.5rem', paddingLeft: '0rem', color: 'rgb(210,210,210)', fontSize: '0.75rem'}}>
           artwork by @sam_seurynck
