@@ -1,5 +1,6 @@
 
 'use client'
+import Back from '../blog/(components)/back'
 import '../blog/blog.css'
 import './music.css'
 import Link from 'next/link'
@@ -7,6 +8,7 @@ import Link from 'next/link'
 export default function Page() {
     return (
         <div className='page'>
+            <Back></Back>
              <div className='music-header'>
                 <h3 style={{paddingLeft: '1rem'}}>FFIELD</h3>
                 <h4 style={{paddingRight: '1rem'}}>Music</h4>
@@ -52,7 +54,6 @@ export default function Page() {
                             <img src='/music/link.svg' className='link-logo'></img>
                         </div>
                     </Link>
-                    
             </div>
             </div>
             

@@ -21,7 +21,7 @@ export default function Header( {title}: HeaderProps) {
                 </Link>
                 <h3>{title} </h3>
             </div>
-            <Link href={"/blog"} style={{paddingRight: '1rem', display:'none'}}>
+            <Link href={"/blog"} style={{paddingRight: '1rem'}}>
                 <TfiClose className="icon" />
             </Link>
         </div>

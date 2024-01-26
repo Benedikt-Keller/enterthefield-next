@@ -4,6 +4,7 @@
     --background-end-rgb: 10, 10, 10;
     --middleground-rgb: 150, 150, 150;
     --middleground-light-rgb: 50, 50, 50;
+    --primary-rgb: 255, 72, 0;
 }
 
 ::-webkit-scrollbar {

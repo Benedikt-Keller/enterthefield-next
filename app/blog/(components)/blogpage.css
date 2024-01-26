@@ -46,10 +46,20 @@
 }
 
 .back-button {
-    background: rgb(var(--middleground-light-rgb));
+    background: rgb(20,20,20, 0.7);
+    color: rgb(var(--primary-rgb));
     border-radius: 0.125rem;
+    border: 1px solid rgb(var(--foreground-rgb), 0.2);
+    backdrop-filter: blur(20px);
     font-weight: 500;
+    width: 256px;
+    height: 51px;
     cursor: pointer;
+    z-index: 100;
+}
+
+.back-button:hover {
+    background: rgba(64, 64, 64, 0.9);
 }
 
 @media screen and (max-width: 768px) {

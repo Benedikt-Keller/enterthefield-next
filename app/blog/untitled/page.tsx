@@ -3,12 +3,14 @@ import Header from "../(components)/header"
 import "../(components)/blogpage.css"
 import Cell from "../(components)/cell"
 import Head from 'next/head';
+import Back from "../(components)/back"
 
 export default function Page() {
     const title = "untitled"
 
     return (
         <div className="blog-page">
+            <Back></Back>
             <Header title={title} />
             <div className="page-content">
                 <h2>{title}</h2>
