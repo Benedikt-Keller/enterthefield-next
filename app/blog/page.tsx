@@ -1,6 +1,7 @@
 import './blog.css'
 import Cell from './(components)/cell'
 import { IoIosArrowRoundBack } from "react-icons/io";
+import Link from 'next/link';
 
 
 export default function Page() {

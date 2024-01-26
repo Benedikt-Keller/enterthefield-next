@@ -7,9 +7,9 @@ import Link from 'next/link'
 export default function Page() {
     return (
         <div className='page'>
-             <div className='blog-header'>
-                <h3>FFIELD</h3>
-                <h4>Music</h4>
+             <div className='music-header'>
+                <h3 style={{paddingLeft: '1rem'}}>FFIELD</h3>
+                <h4 style={{paddingRight: '1rem'}}>Music</h4>
             </div>
             <div className='link-grid-container'>
             <div className='link-grid'>
