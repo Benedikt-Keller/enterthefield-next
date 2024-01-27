@@ -5,6 +5,7 @@ import '../blog/blog.css'
 import './music.css'
 import Link from 'next/link'
 
+
 export default function Page() {
     return (
         <div className='page'>
@@ -15,6 +16,8 @@ export default function Page() {
             </div>
             <div className='link-grid-container'>
             <div className='link-grid'>
+                    <img src='/music/pb.png' className='link-img'></img>
+
                     <Link href={'https://open.spotify.com/intl-de/artist/5jIdvJoSpBBsXUWwfoZgGm?si=Pq3JdWeJTe6MVaRYMy3OyA'} style={{textDecoration: 'none'}} className='link'> 
                         <div className='link-content'>
                             <div className='link-container'>
@@ -58,7 +61,7 @@ export default function Page() {
             </div>
             
 
-            <img src='/music/pb.png' className='background-img'></img>
+            <img src='/music/pb.png' className='background-img' style={{display:'none'}}></img>
             
         </div>
     )

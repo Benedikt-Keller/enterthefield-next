@@ -3,14 +3,18 @@
 }
 
 .blog-header {
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: fit-content;
+    height: 51px;
     top: 0;
-    width: 100%;
-
+    left: 0;
+    right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    backdrop-filter: blur(20px);
 }
 
 .blog-title {
@@ -42,6 +46,8 @@
     justify-content: center;
     gap: 2rem;
     width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
 }
 
 .cell {
