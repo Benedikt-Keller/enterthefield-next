@@ -1,11 +1,16 @@
+'use client'
 import './blog.css'
 import Cell from './(components)/cell'
 import { IoIosArrowRoundBack } from "react-icons/io";
 import Back from './(components)/back';
 import Link from 'next/link';
+import { useEffect } from 'react';
 
 
 export default function Page() {
+    useEffect(() => {
+        document.body.style.backgroundColor = 'rgb(var(--background-start-rgb))'
+    })
     const posts = [
         {
             imgpath: "/untitled/untitledgif.gif",

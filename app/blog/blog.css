@@ -2,6 +2,10 @@
     --cell-size: 330px;
 }
 
+body {
+    background-color: rgb(var(--background-start-rgb));
+}
+
 .blog-header {
     position: fixed;
     display: flex;
