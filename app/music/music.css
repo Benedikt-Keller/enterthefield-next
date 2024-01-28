@@ -1,7 +1,3 @@
-body {
-    background-color: rgb(var(--background-start-rgb))
-}
-
 .page {
     display: flex;
     flex-direction: column;
