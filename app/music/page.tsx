@@ -15,9 +15,9 @@ export default function Page() {
                 <h4 style={{paddingRight: '1rem'}}>Music</h4>
             </div>
             <div className='link-grid-container'>
+                <img src='/music/pb.png' className='link-img'></img>
             <div className='link-grid'>
-                    <img src='/music/pb.png' className='link-img'></img>
-
+                
                     <Link href={'https://open.spotify.com/intl-de/artist/5jIdvJoSpBBsXUWwfoZgGm?si=Pq3JdWeJTe6MVaRYMy3OyA'} style={{textDecoration: 'none'}} className='link'> 
                         <div className='link-content'>
                             <div className='link-container'>
