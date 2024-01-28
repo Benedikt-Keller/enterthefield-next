@@ -20,8 +20,8 @@
 .link-grid-container {
     position: fixed;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: column-reverse;
+    justify-content: space-between;
     align-items: center;
     height: calc(100% - 4rem);
     padding: 1rem;
@@ -35,7 +35,6 @@
     display: grid;
     width: 100%;
     height: 100%;
-    max-width: 500px;
     max-height: 200px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -44,26 +43,26 @@
 .link {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    border-radius: 2px;
     border-bottom: 1px solid;
     border-color: #8C8C8C;
     z-index: 100;
-    padding: 1rem 0.5rem 1rem 0.5rem;
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem;
     grid-column: span 1;
     grid-row: span 1;
 }
 
 .link-img {
     width: 100%;
-    max-width: 500px;
+    max-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     gap: 0.5rem;
+    filter: blur(60px);
     z-index: 100;
     object-fit:cover;
     grid-column: span 1;
@@ -153,7 +152,8 @@
     }
 
     .link-img {
-        height: 200px;
+        filter: blur(40px);
+        height: 300px;
     }
 }
 
