@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 export default function Home() {
 
   return (
-    <div style={{backgroundColor: 'white', overflow: 'hidden', width: '100%'}}>
+    <div className='white-background'>
         <h1 style={{zIndex: '200', position: 'fixed', display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '0.5rem', color: 'black'}}>
           enter
         </h1>
