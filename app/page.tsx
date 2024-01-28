@@ -1,17 +1,12 @@
-'use client'
 import Image from 'next/image'
 import Link from 'next/link'
 import './landing.css'
 import { useEffect } from 'react'
 
 export default function Home() {
-  // set body background color to white when component mounts
-  useEffect(() => {
-    document.body.style.backgroundColor = 'white'
-  })
 
   return (
-    <div style={{backgroundColor: 'white', overflow: 'hidden'}}>
+    <body style={{backgroundColor: 'white', overflow: 'hidden'}}>
         <h1 style={{zIndex: '200', position: 'fixed', display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '0.5rem', color: 'black'}}>
           enter
         </h1>
@@ -33,7 +28,7 @@ export default function Home() {
 
       <img src='original_64d92446026a5b2414276869cd6fe440_3.gif' className='backdrop' style={{maxWidth: '1000px'}}>
       </img>
-    </div>
+    </body>
   
     
   )

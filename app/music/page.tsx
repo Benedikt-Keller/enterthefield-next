@@ -1,16 +1,10 @@
-
-'use client'
 import Back from '../blog/(components)/back'
 import '../blog/blog.css'
 import './music.css'
 import Link from 'next/link'
-import { useEffect } from 'react'
 
 
 export default function Page() {
-    useEffect(() => {
-        document.body.style.backgroundColor = 'rgb(var(--background-start-rgb))'
-    })
 
     return (
         <div className='page'>

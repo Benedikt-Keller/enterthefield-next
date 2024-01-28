@@ -13,16 +13,19 @@ export default function Back() {
         alignItems:'center', 
         justifyContent:'flex-start',
         paddingLeft: '1rem',
-        gap: '0.5rem'
+        gap: '0.5rem',
     }} 
         className='back-button'>
-        <IoIosArrowRoundBack 
-        style={{
+            
+            <IoIosArrowRoundBack 
+            style={{
             color:'rgb(0,0,0)',
             width: '1.5rem',
             height: '1.5rem'
-        }} />
-           Back
+            }} />
+
+        <h3 style={{color:'rgb(var(--background-start-rgb), 0.8)'}}>Back</h3>
+
         </Link>
             
     )
