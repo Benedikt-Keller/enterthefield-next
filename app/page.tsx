@@ -8,7 +8,7 @@ export default function Home() {
         <h1 style={{zIndex: '200', position: 'fixed', display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '0.5rem', color: 'black'}}>
           enter
         </h1>
-        <div style={{zIndex: '2000', display: 'flex', justifyContent: 'center', alignItems: 'center',flexDirection: 'column', height: '100vh', overflow: 'hidden'}}>
+        <div style={{zIndex: '2000', display: 'flex', justifyContent: 'center', alignItems: 'center',flexDirection: 'column', height: '100%', overflow: 'hidden'}}>
           <div className='panel-container' style={{overflow:'hidden'}}>
           <Link href="/blog" style={{textDecoration: 'none'}} className='panel'>
               <h5 className='panel-title'>blog</h5>
