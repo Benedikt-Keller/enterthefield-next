@@ -61,6 +61,8 @@ export default function Page() {
 
                 <p> © field program 2024 </p>
 
+                <div className="bottom-spacer"></div>
+
             </div>
         </div>
         

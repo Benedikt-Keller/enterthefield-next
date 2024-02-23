@@ -15,6 +15,8 @@ export default function Page() {
                 <h2>{title}</h2>
                 <Cell type={"image"} imgpath={"/enter/enter.png"} title={"enter the field"} date={"22-01-2024"} desc={"?????"} ></Cell>
             </div>
+
+            <div className="bottom-spacer"></div>
         </div>
     )
 }

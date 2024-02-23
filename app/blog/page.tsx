@@ -8,6 +8,14 @@ import Link from 'next/link';
 export default function Page() {
     const posts = [
         {
+            imgpath: "/crisis/rack.jpg",
+            title: "holy shit im going thru a crisis",
+            desc: "2 track ep + photoshoot",
+            date: '23-02-2024',
+            type: 'post',
+            posttitle: 'crisis'
+        },
+        {
             imgpath: "/untitled/untitledgif.gif",
             title: "untitled series",
             desc: "untitled series",
