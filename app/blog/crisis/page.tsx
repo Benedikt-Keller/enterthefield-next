@@ -15,9 +15,9 @@ export default function Page() {
             <div className="page-content">
                 <h2>{title}</h2>
 
-                <p> Two tracks (field program, sometime 2020-2021) released on spotify, youtube and souncloud. Photos were shot by @circee (02-2024) and dir/edit by @ffield000000000000.
+                <p> Two tracks (field program, sometime 2020-2021) released on spotify, youtube and souncloud. Photos were shot by @3circee (02-2024) and dir/edit by @ffield000000000000.
                 </p>
-                
+
                 <div className="links">
                 <Link style={{color:"white"}} href={'https://open.spotify.com/album/6aDLdTZMix4Jd8Y4euaox5?si=3pluS2sbRb2Vnj9Kc7Lr8w'} > spotify </Link>
                 <Link style={{color:"white"}} href={'https://youtu.be/Deq21aO5TV0?si=2nvLc-cL7jXbhIiN'} > youtube </Link>
